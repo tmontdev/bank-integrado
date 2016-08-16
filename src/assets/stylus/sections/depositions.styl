@@ -65,3 +65,69 @@ section#depositions
 						display inline-block
 						margin-top 10px
 						box-shadow 0px 0px 20px rgba(0,0,0,.4)
+	.block-more
+		size 100
+		background-image url('http://oneclickpixels.com/investable/assets/images/bg-imgs/bg-img-3.jpg')
+		background-position center center
+		background-repeat no-repeat
+		background-size cover
+		background-attachment fixed
+		.overlay
+			size 100
+			background-color alpha($blue1, 0.6)
+			padding 80px 0
+			.more-than
+				size 100
+				padding 10px 0
+				font-weight 400
+				text-align center
+				font-weight 300
+				padding 0
+				font-size 2.2em
+				color alpha(#FFF, 0.4)
+				span
+					display inline-block
+					&.t
+						color #FFF
+					&.ns
+						padding 0 10px
+						> span
+							background-color rgba(0,0,0,0.6)
+							color #FFF
+							padding 6px 12px
+							font-size 0.8em
+							border-radius 5px
+							margin 0 2px
+			.phrase-more
+				position relative
+				z-index 5
+				text-align center
+				margin 30px 0 30px 35%
+				size 30
+				&:after,
+				&:before
+					position absolute
+					margin-top 1px
+					top 50%
+					height 1px
+					background-color rgba(255,255,255,0.3)
+					width 200px
+					content ""
+				&:before
+					left -170px
+				&:after
+					right -170px
+				> span
+					position relative
+					font-size 2.2em
+					color alpha(#FFF, 0.6)
+					> i
+						color alpha(#FFF, 0.9)
+			.other-clients
+				size 100
+				text-align center
+				img
+					width 40px
+					border-radius 50%
+					display inline-block
+					margin 0 6px
