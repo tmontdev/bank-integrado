@@ -137,12 +137,26 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. lorem </p>
           <div class="form-area">
             <form name="contact">
-              <input type="text" name="nome" placeholder="Qual o seu Nome" class="form-name">
-              <input type="text" name="numero" placeholder="Qual o seu Telefone" class="form-fone">
-              <input type="text" name="e-mail" placeholder="Digite o seu E-mail" class="form-mail">
-              <input type="text" name="ass" placeholder="Qual o Assunto" class="form-ass">
-              <input type="textfield" name="msg" placeholder="O que deseja nos dizer?" class="form-msg">
-              <div class="form-button"><span>Enviar</span></div>
+              <label for="nome">Nome:<span>
+                   
+                  *</span></label>
+              <input type="text" name="nome" placeholder="Qual o seu Nome" id="form-name" class="form-item">
+              <label for="numero">Telefone:</label>
+              <input type="text" name="numero" placeholder="Qual o seu Telefone" id="form-number" class="form-item">
+              <label for="e-mail">E-mail:<span>
+                   
+                  *</span></label>
+              <input type="text" name="e-mail" placeholder="Digite o seu E-mail" id="form-mail" class="form-item">
+              <label for="ass">Assunto:<span>
+                   
+                  *</span></label>
+              <input type="text" name="ass" placeholder="Qual o Assunto" id="form-ass" class="form-item">
+              <label for="msg">Mensagem:<span>
+                   
+                  *</span></label>
+              <input type="textfield" name="msg" placeholder="O que deseja nos dizer?" id="form-msg" class="form-item">
+              <button type="button" id="send-button">Enviar</button>
+              <button type="button" id="clean-button">Limpar</button>
             </form>
           </div>
         </div>
