@@ -8,28 +8,10 @@ section#contact.contact
 
 			.form-area
 				form(name="contact")
-					label(for="nome")
-						|Nome:
-						span 
-							|*
-					input(type="text", name="nome", placeholder="Qual o seu Nome" class="form-item" id="form-name" )
-					label(for="numero")
-						|Telefone:
-					input(type="text", name="numero", placeholder="Qual o seu Telefone" class="form-item" id="form-number" )
-					label(for="e-mail")
-						|E-mail:
-						span 
-							|*
-					input(type="text", name="e-mail", placeholder="Digite o seu E-mail" class="form-item" id="form-mail" )
-					label(for="ass")
-						|Assunto:
-						span 
-							|*
-					input(type="text", name="ass", placeholder="Qual o Assunto" class="form-item" id="form-ass" )
-					label(for="msg")
-						|Mensagem:
-						span 
-							|*
+					input(type="text", name="nome", placeholder="Nome" class="form-item" id="form-name" )
+					input(type="text", name="numero", placeholder="Telefone" class="form-item" id="form-number" )
+					input(type="text", name="e-mail", placeholder="E-mail" class="form-item" id="form-mail" )
+					input(type="text", name="ass", placeholder="Assunto" class="form-item" id="form-ass" )
 					input(type="textfield", name="msg", placeholder="O que deseja nos dizer?" class="form-item"  id="form-msg")
 					button(type="button" id="send-button")
 						|Enviar
