@@ -1,43 +1,61 @@
-
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
-
-#header
-	width 100%
-	float left
-	z-index 1
+header#header
+	size 100
+	z-index 3
 	position fixed
-	border-bottom solid 1px white 
-	.header-content
-		width 100%
-		float left 
-		padding  0% 10%
-		margin 0
-		.header-logo
-			width 20%
-			float left 
-			img 
-				height 80px
-				width 50px
-		.header-menu
-			width 80% 
-			float left 
-			nav
-				width 100%
-				float left 
-				text-transform uppercase
-				ul 
-					display block
-					list-style none
-					li 
-						display inline-block
-						padding 2% 8%
-						a 
-							text-decoration none
-							color white
-							&:hover
-								text-decoration underline
-								
+	top 0
+	left 0
+	nav.navbar
+		padding 40px 0
+		transition all .3s ease-in-out
+		size 100
+		.nav-logo,
+		.nav-social
+			size 20
+		.nav-logo
+			text-align left
+			> img
+				max-width 100%
+		.nav-menu
+			size 60
+			ul
+				size 100
+				text-align center
+				list-style none
+				margin 0
+				padding 0
+				li
+					display inline-block
+					a
+						display block
+						color #FFF
+						text-transform uppercase
+						font-size 1.1em
+						padding 12px 0
+						margin 0 14px
+						letter-spacing 2px
+						line-height 20px
+						transition all .3s
+						&:hover
+							color $blue2
+		.nav-social
+			ul
+				size 100
+				text-align right
+				list-style none
+				margin 0
+				padding 0
+				li
+					display inline-block
+					a
+						display block
+						color alpha(#fff, 0.4)
+						font-size 1.4em
+						padding 9px 0
+						margin 0 4px
+						transition all .3s
+						&:hover
+							color alpha(#fff, 0.8)
+	&.navbar-collapse
+		nav.navbar
+			padding 12px 0
+			background-color rgba(12, 12, 27, 0.9)

@@ -9,20 +9,28 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/whisky.min.css">
   </head>
   <body>
-    <header id="header" class="header">
-      <div class="header-content">
-        <div class="header-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Deep_Silver_White_Logo.png/417px-Deep_Silver_White_Logo.png"></div>
-        <div class="header-menu">
-          <nav class="menu-content">
+    <header id="header" class="navbar-nofixed">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-logo"><img src="http://tidytheme.com/alisa/preview/images/logo.png"></div>
+          <div class="nav-menu">
             <ul>
-              <li><a href="#home" title="Home">Home</a></li>
-              <li><a href="#about" title="About">Sobre</a></li>
-              <li><a href="#depositions" title="Depositions">Depoimentos</a></li>
-              <li><a href="#contact" title="Contact">Contato</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#home">Sobre</a></li>
+              <li><a href="#home">Depoimentos</a></li>
+              <li><a href="#home">Contato</a></li>
             </ul>
-          </nav>
+          </div>
+          <div class="nav-social">
+            <ul>
+              <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#!"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <section id="home">
       <div class="overlay">
@@ -132,47 +140,68 @@
     </section>
     <section id="contact" class="contact">
       <div class="container">
-        <div class="contact-content">
-          <h2>Contato</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. lorem </p>
-          <div class="form-area">
-            <form name="contact">
-              <input type="text" name="nome" placeholder="Nome" id="form-name" class="form-item">
-              <input type="text" name="numero" placeholder="Telefone" id="form-number" class="form-item">
-              <input type="text" name="e-mail" placeholder="E-mail" id="form-mail" class="form-item">
-              <input type="text" name="ass" placeholder="Assunto" id="form-ass" class="form-item">
-              <input type="textfield" name="msg" placeholder="O que deseja nos dizer?" id="form-msg" class="form-item">
-              <button type="button" id="send-button">Enviar</button>
-              <button type="button" id="clean-button">Limpar</button>
+        <div class="block-intro">
+          <h1>Contato</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+        </div>
+        <div class="block-form">
+          <div class="side-form">
+            <form>
+              <div class="form-group">
+                <input placeholder="Digite seu nome" class="form-control">
+                <label for="a" class="form-identifier"><i class="fa fa-user"></i></label>
+              </div>
+              <div class="form-group">
+                <input placeholder="Digite seu nome" class="form-control">
+                <label for="a" class="form-identifier"><i class="fa fa-user"></i></label>
+              </div>
+              <div class="form-group">
+                <input placeholder="Digite seu nome" class="form-control">
+                <label for="a" class="form-identifier"><i class="fa fa-user"></i></label>
+              </div>
+              <div class="form-group">
+                <input placeholder="Digite seu nome" class="form-control">
+                <label for="a" class="form-identifier"><i class="fa fa-user"></i></label>
+              </div>
+              <div class="form-group full">
+                <textarea placeholder="Digite sua mensagem" rows="8" class="form-control"></textarea>
+              </div>
+              <div class="form-group full">
+                <button class="btn-send"><i class="fa fa-paper-plane"></i>Enviar</button>
+              </div>
             </form>
+          </div>
+          <div class="side-fb">
+            <h2>Você também pode curtir nosso facebook</h2>
+            <div class="wrapper-iframe"><div class="fb-page" data-href="https://www.facebook.com/TheMentalistProject/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TheMentalistProject/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TheMentalistProject/">The Mentalist Project</a></blockquote></div></div>
           </div>
         </div>
       </div>
     </section>
     <footer id="footer" class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-social">
-            <h1>social</h1><p><i class="fa fa-phone" aria-hidden="true"></i> (99) 99999-9999 </p>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> contato@bankintegrado.com.br</p>
-            <div class="footer-social-icons">
-              <div id="footer-fb" class="footer-sc"><span class="fa fa-facebook" aria-hidden="true"></span></div>
-              <div id="footer-tt" class="footer-sc"><span class="fa fa-twitter" aria-hidden="true"></span></div>
-              <div id="footer-li" class="footer-sc"><span class="fa fa-linkedin" aria-hidden="true"></span></div>
-              <div id="footer-gp" class="footer-sc"><span class="fa fa-google-plus" aria-hidden="true"></span></div>
+      <div class="overlay">
+        <div class="container">
+          <div class="footer-content">
+            <div class="block-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Deep_Silver_White_Logo.png/417px-Deep_Silver_White_Logo.png"></div>
+            <div class="block-social">
+              <ul>
+                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#!"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
             </div>
-          </div>
-          <div class="footer-menu">
-            <h1>menu</h1>
-            <ul>
-              <li><a href="#home" title="Home">Simular</a></li>
-              <li><a href="#about" title="About">Sobre</a></li>
-              <li><a href="#depositions" title="Depositions">Depoimentos</a></li>
-              <li><a href="#contact" title="Contact">Contato</a></li>
-            </ul><span>Bank Integrado 2016 - Todos os direitos reservados.</span>
+            <div class="block-text">
+              <div class="wrapper-text"><i class="fa fa-phone"></i>(99) 99999-999</div>
+              <div class="wrapper-text"><i class="fa fa-envelope"></i>contato@bankintegrado.com.br</div>
+              <div class="wrapper-text text-credits">Bank Integrado 2016 &copy; Todos os diretios reservados</div>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+    <div id="fb-root"></div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/whisky.min.js"></script>
   </body>
 </html>
