@@ -1,25 +1,23 @@
 footer.footer#footer
-	.container
-		.footer-content
-			.footer-social
-				h1 social
-				<p><i class="fa fa-phone" aria-hidden="true"></i> (99) 99999-9999 </p>
-				<p><i class="fa fa-envelope" aria-hidden="true"></i> contato@bankintegrado.com.br</p>
-				.footer-social-icons
-					.footer-sc#footer-fb
-						<span class="fa fa-facebook" aria-hidden="true"></span>
-					.footer-sc#footer-tt
-						<span class="fa fa-twitter" aria-hidden="true"></span>
-					.footer-sc#footer-li
-						<span class="fa fa-linkedin" aria-hidden="true"></span>
-					.footer-sc#footer-gp
-						<span class="fa fa-google-plus" aria-hidden="true"></span>
-			.footer-menu
-				h1 menu
-				ul
-					li: a(href="#home", title="Home")| Simular
-					li: a(href="#about", title="About")| Sobre
-					li: a(href="#depositions", title="Depositions")| Depoimentos
-					li: a(href="#contact", title="Contact")| Contato
-				span Bank Integrado 2016 - Todos os direitos reservados.
+	.overlay
+		.container
+			.footer-content
+				.block-logo
+					img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Deep_Silver_White_Logo.png/417px-Deep_Silver_White_Logo.png")
+				.block-social
+					ul
+						li: a(href="#!"): i.fa.fa-facebook
+						li: a(href="#!"): i.fa.fa-twitter
+						li: a(href="#!"): i.fa.fa-linkedin
+						li: a(href="#!"): i.fa.fa-google-plus
+				.block-text
+					.wrapper-text
+						i.fa.fa-phone
+						| (99) 99999-999
+					.wrapper-text
+						i.fa.fa-envelope
+						| contato@bankintegrado.com.br
+					.wrapper-text.text-credits
+						| Bank Integrado 2016 &copy; Todos os diretios reservados
 
+#fb-root
